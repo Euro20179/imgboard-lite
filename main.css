@@ -1,0 +1,24 @@
+body,
+html,
+:root{
+    color-scheme: dark;
+}
+
+.draggable {
+    position: absolute;
+}
+
+[data-selected=true]{
+    border: 2px solid ActiveBorder;
+}
+
+[data-resizing=true]{
+    border: 2px solid red;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    color: ButtonFace;
+    border: 1px solid transparent;
+}
